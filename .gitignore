@@ -4,3 +4,9 @@ slawek_github/
 data/*.csv
 data/Test/*.csv
 data/Train/*.csv
+
+**/__pycache__/
+
+**/.idea/
+
+.idea/*
