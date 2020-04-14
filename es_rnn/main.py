@@ -1,9 +1,9 @@
 import pandas as pd
 from torch.utils.data import DataLoader
-from .data_loading import create_datasets, SeriesDataset
-from .config import get_config
-from .trainer import ESRNNTrainer
-from .model import ESRNN
+from es_rnn.data_loading import create_datasets, SeriesDataset
+from es_rnn.config import get_config
+from es_rnn.trainer import ESRNNTrainer
+from es_rnn.model import ESRNN
 import time
 
 print('loading config')
